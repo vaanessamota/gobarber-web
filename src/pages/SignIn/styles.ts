@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-
 import signInBackgroundImg from '../../assets/sign-in-background.png';
 
 export const Container = styled.div`
@@ -30,7 +29,7 @@ export const Content = styled.div`
     }
 
     a {
-      color: #F4EDE8;
+      color: #f4ede8;
       display: block;
       margin-top: 24px;
       text-decoration: none;
@@ -60,7 +59,6 @@ export const Content = styled.div`
       margin-right: 16px;
     }
   }
-
 `;
 
 export const Background = styled.div`
