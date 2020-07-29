@@ -18,8 +18,6 @@ interface AuthContextData {
 }
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
-// valor inicial precisa ser passado
-// {} as AuthContext força o TS a aceitar um objeto vazio como defaultValue
 
 const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<AuthState>(() => {
